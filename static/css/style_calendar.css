@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 5em auto;
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 1em;
+    box-shadow: -.5px 3px 5px rgba(0,0,0,0.2);
+}
+
+.title{
+    text-align: center;
+    margin: .3em 0;
+    color: #232323;
+}
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day{
+    list-style: none;
+    text-align: right;
+    padding: .3em .5em;
+    color: #444;
+}
+
+.day_name{
+    background: #eee;
+    font-weight: 700;
+    text-align: center;
+}
+
+.first-day{
+    grid-column-start: 6;
+}

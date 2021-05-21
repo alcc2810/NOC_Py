@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card card-body">
+            <table class="table table-striped table-bordered bg-white table-sm">
+                <thead> <!- Titulos de la tabla ->
+                    <tr>
+                        <td>Técnico SES</td>
+                        <td>Actividad</td>
+                        <td>Requerimiento</td>
+                        <td>Fecha</td>
+                        <td>Hora</td>
+                        <td>Especialista</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for atencion_ses in atenciones_ses %}
+                        <tr>
+                            <td>{{ atencion_ses.0 }}</td>
+                            <td>{{ atencion_ses.1 }}</td>
+                            <td>{{ atencion_ses.2 }}</td>
+                            <td>{{ atencion_ses.3 }}</td>
+                            <td>{{ atencion_ses.4 }}</td>
+                            <td>{{ atencion_ses.5 }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

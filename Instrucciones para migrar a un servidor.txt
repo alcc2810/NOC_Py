@@ -1,0 +1,13 @@
+Crea archivo de requerimientos
+pip freeze > requirements.txt
+
+
+O instalar una a una
+pip install Flask
+pip install Flask-Bootstrap4
+pip install Flask-MySQLdb
+pip install Flask-Script
+pip install Jinja2
+pip install Flask-Mail
+pip install paramiko                                                                                                       
+pip install python-decouple 

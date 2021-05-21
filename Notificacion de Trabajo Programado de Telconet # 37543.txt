@@ -1,0 +1,39 @@
+From:	notificaciones@telconet.net
+Sent:	domingo, 18 de abril de 2021 01:02
+Cc:	Networkingbp; Monitoreo Teuno; notificaciones-ipccl2@telconet.ec
+Subject:	Notificacion de Trabajo Programado de Telconet # 37543
+
+ 
+
+Estimados Clientes,
+Telconet les informa de la realización del trabajo programado que a continuación se detalla:
+Trabajo:
+Mantenimiento contingencia eléctrico nodo Imperial
+Fecha:
+Fri, 23-Apr-2021 - Fri, 23-Apr-2021
+Ventana de Trabajo:
+00h01 - 03h00
+Zona Horaria:
+(GMT-05:00)Bogotá , Lima , Quito
+Downtime:
+00h10
+Servicios Afectados:
+Internet Datos 
+Detalle de Puntos de Clientes Afectados:
+Franklin Vaca(Dirección:Av. daniel leon borja y luis alberto falconi - LOGIN: bcopi-laestacion-d )
+Monitoreo Monitoreo(Dirección:Av. daniel leon borja y luis alberto falconi - LOGIN: bcopi-
+laestacion-d )
+Notificaciones Banco(Dirección:Av. daniel leon borja y luis alberto falconi - LOGIN: bcopi-
+laestacion-d )
+Max Hinostroza(Dirección:Av. daniel leon borja y luis alberto falconi - LOGIN: bcopi-laestacion-
+d )
+
+Seguros de contar con su amable atención;
+Atentamente;
+
+---------------------------------
+
+Servicio al Cliente Corporativo
+NOTA: Favor no responder este mensaje que ha sido emitido automáticamente.
+
+

@@ -1,0 +1,42 @@
+From:	notificaciones@telconet.net
+Sent:	sábado, 17 de abril de 2021 21:01
+Cc:	Notificacion_teuno; Rebeca Vega; notificaciones-ipccl2@telconet.ec
+Subject:	Notificacion de Trabajo Programado de Telconet # 37570
+
+ 
+
+Estimados Clientes,
+Telconet les informa de la realización del trabajo programado que a continuación se detalla:
+Trabajo: Nodo Cipreses_Contingencia Eléctrica
+Fecha:
+Thu, 22-Apr-2021 - Thu, 22-Apr-2021
+Ventana de Trabajo:
+00h01 - 06h00
+Zona Horaria:
+(GMT-05:00)Bogotá , Lima , Quito
+Downtime:
+00h05
+Servicios Afectados:
+Internet Datos 
+Detalle de Puntos de Clientes Afectados:
+Notificaciones Teuno(Dirección:Calle ruminahui y av. interoceanica - LOGIN: bravco-fidelegas )
+Rebeca Vega(Dirección:Calle ruminahui y av. interoceanica - LOGIN: bravco-fidelegas )
+
+Seguros de contar con su amable atención;
+Atentamente;
+
+---------------------------------
+
+Servicio al Cliente Corporativo
+NOTA: Favor no responder este mensaje que ha sido emitido automáticamente.
+
+
+Expresiones regulares que serviran para estas notificaciones
+txt = "prueba de identificadores LOGIN: bravco-fidelegas )"
+x = re.findall("LOGIN.*\)$", txt)
+
+txt = "Trabajo: Nodo Cipreses_Contingencia Eléctrica"
+x = re.findall("^Trabajo.*$", txt)
+
+
+https://www.w3schools.com/python/trypython.asp?filename=demo_regex

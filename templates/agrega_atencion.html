@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="row">
+    <div class="col-md-6">
+
+        <!- Verifica los mensajes que serán enviados luego de la ejecución ->
+        {% with mensajes = get_flashed_messages() %}
+            {% if mensajes %}
+                {% for mensaje in mensajes %}
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>{{ mensaje }}</strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+                
+        <div class="card card-body">
+            <form action="/add_attention" method="POST">
+                <div class="form-group">
+                    <input type="text" name="tecnico_ses" placeholder="Tecnico SES" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="descripcion_ses"  placeholder="Descripción actividad" class="form-control">
+                </div>
+                <div class="form-group">    
+                    <input type="text" name="requerimiento_ses" placeholder="Requerimiento" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="fecha_atencion" placeholder="Formato yyyymmdd" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="hora_atencion" placeholder="Formato hhmmss" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="espec_atencion" placeholder="Especialista" class="form-control">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Guardar</button>
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+</div>
+
+{% endblock %}
